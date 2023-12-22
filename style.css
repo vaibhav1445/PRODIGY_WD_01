@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width:80vw;
+}
+
+.navbar{
+    display:flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.navbar a:hover{
+    color: orangered;
+
+}
+
+.topLeft{
+    width: 50%;
+    padding: 1px 0;
+}
+
+.toprigth{
+    width: 50%;
+    
+}
+
+.section1{
+    max-height: 100vh;
+}
+
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.bookimg{
+    width: 159px;
+}
+.topright .stationaryimg{
+    width: 500px;
+    height: fit-content;
+
+}
+
+.section2{
+   padding: 73px;
+}
+
+.section2 h1{
+    font-size: 1.8rem;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px  solid orangered;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.box h2{
+    font-size: 1.8rem;
+    padding: 15px 0;
+
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px ;
+    margin-top: 40px;
+    border-collapse: collapse;
+
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+
+
+}
+
+.section3 table td{
+    border-bottom: 2px solid black;
+    
+
+}
+
+
+.section3 h1{
+    font-size: 1.8rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+
+
